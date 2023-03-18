@@ -306,6 +306,9 @@ section {
 .btn:hover{
   background-color: var(--dark-gray);
 }
+.btn:active{
+  background-color: var(--dark-bg);
+}
 /* utlity class */
 /* about */
 

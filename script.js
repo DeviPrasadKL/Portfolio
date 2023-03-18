@@ -22,3 +22,9 @@ document.onload = () => {
     document.querySelector('.header').classList.remove('active');
   }
 };
+
+function sendMail(){
+  var subject = document.getElementById("subject").value;
+  var mailBody = document.getElementById("mailBody").value;
+  window.location.href = "mailto:deviprasadofficial@gmail.com?subject=" + subject + "&body=" + mailBody;
+}
