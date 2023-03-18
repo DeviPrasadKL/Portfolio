@@ -516,6 +516,9 @@ section {
   letter-spacing: 0.1rem;
   text-transform: none;
 }
+.contact .col-container .col #mailBody{
+  text-transform: none;
+}
 /* contact */
 
 /* footer */
