@@ -592,6 +592,10 @@ section {
   header .navbar.show {
     transform: translateX(0);
   }
+
+  .portfolio .box-container .box .image .content {
+    transform: none;
+  }
 }
 
 @media (max-width: 450px) {
@@ -601,6 +605,10 @@ section {
 
   .home .hero-text {
     font-size: 6rem;
+  }
+
+  .portfolio .box-container .box .image .content {
+    transform: none;
   }
 }
 /* media queries */
