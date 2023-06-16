@@ -615,6 +615,10 @@ section {
   .portfolio .box-container .box .image .content {
     transform: none;
   }
+
+  .bot{
+    height: 60rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -628,6 +632,10 @@ section {
 
   .portfolio .box-container .box .image .content {
     transform: none;
+  }
+
+  .bot{
+    height: 70rem;
   }
 }
 /* media queries */
