@@ -83,6 +83,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
+
 /* home */
 
 /* header */
@@ -134,6 +135,7 @@ section {
 .header.active .menu {
   color: var(--white);
 }
+
 /* header */
 
 /* portfolio */
@@ -149,6 +151,7 @@ section {
 .heading span {
   font-weight: 700;
 }
+
 /* utility class */
 
 .portfolio .box-container .box .image {
@@ -202,6 +205,7 @@ section {
 .portfolio .box-container .box:hover .image .content {
   transform: translateY(0);
 }
+
 /* portfolio */
 /* add scrollbar */
 /* fix header */
@@ -258,6 +262,7 @@ section {
   color: var(--light-gray);
   text-transform: capitalize;
 }
+
 /* resume */
 
 /* about */
@@ -287,7 +292,8 @@ section {
   line-height: 1.5;
   text-transform: none;
 }
-.about .image img{
+
+.about .image img {
   border-radius: 2rem;
 }
 
@@ -303,12 +309,15 @@ section {
   display: inline-block;
   margin-top: 1rem;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: var(--dark-gray);
 }
-.btn:active{
+
+.btn:active {
   background-color: var(--dark-bg);
 }
+
 /* utlity class */
 /* about */
 
@@ -415,6 +424,7 @@ section {
 .services .box-container .box .btn-2:hover i {
   padding-left: 1.5rem;
 }
+
 /* services */
 
 /* blogs */
@@ -462,7 +472,7 @@ section {
   margin-right: 2rem;
 }
 
-.content p a{
+.content p a {
   color: var(--yellow);
 }
 
@@ -475,6 +485,7 @@ section {
   color: var(--yellow);
   cursor: pointer;
 }
+
 /* blogs */
 
 /* contact */
@@ -516,9 +527,11 @@ section {
   letter-spacing: 0.1rem;
   text-transform: none;
 }
-.contact .col-container .col #mailBody{
+
+.contact .col-container .col #mailBody {
   text-transform: none;
 }
+
 /* contact */
 
 /* footer */
@@ -542,6 +555,7 @@ section {
   color: var(--dark-gray);
   margin-top: 3rem;
 }
+
 /* footer */
 
 /* media queries start*/
@@ -613,4 +627,5 @@ section {
   }
 
 }
+
 /* media queries ends*/
