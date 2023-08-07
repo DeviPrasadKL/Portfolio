@@ -544,7 +544,7 @@ section {
 }
 /* footer */
 
-/* media queries */
+/* media queries start*/
 @media (max-width: 1200px) {
   .header {
     padding: 3rem 2rem;
@@ -613,4 +613,4 @@ section {
   }
 
 }
-/* media queries */
+/* media queries ends*/
