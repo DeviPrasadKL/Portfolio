@@ -531,7 +531,6 @@ section {
 .contact .col-container .col #mailBody {
   text-transform: none;
 }
-
 /* contact */
 
 /* footer */
@@ -555,7 +554,6 @@ section {
   color: var(--dark-gray);
   margin-top: 3rem;
 }
-
 /* footer */
 
 /* media queries start*/
