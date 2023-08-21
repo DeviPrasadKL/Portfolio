@@ -57,7 +57,6 @@ section {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,10 +69,22 @@ section {
   color: var(--white);
   font-weight: 200;
   line-height: 1.2;
+  border-right: 2px solid var(--dark-bg);
+  overflow: hidden;
+  animation: type 3s ease-out calc(2);
+  white-space:nowrap;
 }
 
 .home .hero-text span {
   font-weight: 800;
+}
+@keyframes type {
+  from{
+    width: 0rem;
+  }
+  to{
+    width: 45rem;
+  }
 }
 
 .home p {
