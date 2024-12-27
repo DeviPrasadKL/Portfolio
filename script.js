@@ -28,3 +28,8 @@ function sendMail(){
   var mailBody = document.getElementById("mailBody").value;
   window.location.href = "mailto:deviprasadofficial@gmail.com?subject=" + subject + "&body=" + mailBody;
 }
+
+let currentYearElement = document.getElementById('currentYear');
+let currentYear = new Date().getFullYear();
+
+currentYearElement.innerHTML = currentYear;
